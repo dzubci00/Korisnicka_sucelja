@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { Link } from "gatsby"
-import { jsx, useThemeUI } from "theme-ui"
+import { jsx,} from "theme-ui"
 
 const NavigationLink = ({ children, ...prop }) => {
-  const { theme } = useThemeUI()
+  
 
   return (
     <Link
@@ -16,20 +16,18 @@ const NavigationLink = ({ children, ...prop }) => {
       textDecoration: "none",
       whiteSpace: "nowrap",
       letterSpacing: "wide",
-      lineHeight: theme =>
-        `calc(${theme.sizes.logo} - 2 * ${theme.sizes.navLinkBorder})`,
-      borderTop: theme => `${theme.sizes.navLinkBorder} solid transparent`,
-      borderBottom: theme => `${theme.sizes.navLinkBorder} solid transparent`,
+      lineHeight:`calc(60px - 2 * 3px)`,
+      borderTop:`3px solid transparent`,
+      borderBottom: `3px solid transparent`,
       transition: "all 0.25s linear",
       "&:hover": {
         color: "white",
-        borderBottom: theme =>
-          `${theme.sizes.navLinkBorder} solid white`,
+        borderBottom: `3px solid white`,
       },
     }}
     activeStyle={{
       color: "white",
-      borderBottom: `${theme.sizes.navLinkBorder} solid white`,
+      borderBottom: `3px solid white`,
     }}
   >
       {children}
