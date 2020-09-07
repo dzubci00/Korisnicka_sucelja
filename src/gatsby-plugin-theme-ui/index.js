@@ -1,72 +1,88 @@
-import { tailwind } from "@theme-ui/presets"
-
-const theme = {
-  ...tailwind,
+export const theme = {
+  breakpoints: ['40em', '52em', '64em'],
+  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
-    body: `"IBM Plex Sans", -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`,
-    heading: `"IBM Plex Sans", -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`,
+    body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    heading: 'inherit',
+    monospace: 'Menlo, monospace',
   },
-  sizes: {
-    ...tailwind.sizes,
-    container: "1024px",
-    logo: "60px",
-    more: "25px",
-    navLinkBorder: "3px",
-    footerimg: "50px",
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
+  fontWeights: {
+    body: 400,
+    heading: 700,
+    bold: 700,
+  },
+  lineHeights: {
+    body: 1.5,
+    heading: 1.125,
   },
   colors: {
-    primaryHover: "#542D7D",
-    accent: "#0E0F14",
+    text: '#000',
+    background: '#fff',
+    primary: '#07c',
+    secondary: '#30c',
+    muted: '#f6f6f6',
   },
-  shadows: {
-    ...tailwind.shadows,
-    header: theme =>
-      `0 4px 6px ${theme.colors.primaryHover}, 0 0 1px rgba(1,0,0,.1)`,
-  },
-  borders: {
-    header: theme => `1px solid ${theme.colors.primaryHover}`,
+  text: {
+    heading: {
+      fontFamily: 'heading',
+      lineHeight: 'heading',
+      fontWeight: 'heading',
+    },
   },
   styles: {
-    ...tailwind.styles,
-    blockquote: {
-      borderLeft: theme => `5px solid ${theme.colors.accent}`,
-      paddingLeft: 3,
-      marginLeft: 0,
-      marginRight: 0,
-      fontStyle: "italic",
-    },
-    p: {
-      ...tailwind.styles.p,
-      fontSize: [1, 1, 1, 2],
-      mt: 4,
-      color: "#808080",
+    root: {
+      fontFamily: 'body',
+      lineHeight: 'body',
+      fontWeight: 'body',
     },
     h1: {
-      ...tailwind.styles.h1,
-      fontSize: [4, 4, 5, 6],
-      mt: [4, 5],
+      variant: 'text.heading',
+      fontSize: 5,
     },
     h2: {
-      ...tailwind.styles.h2,
-      fontSize: [3, 3, 4, 4],
-      mt: [4, 5],
+      variant: 'text.heading',
+      fontSize: 4,
     },
     h3: {
-      ...tailwind.styles.h3,
-      fontSize: [2, 2, 3, 3],
-      mt: 4,
-      color: "#9AD1C4",
+      variant: 'text.heading',
+      fontSize: 3,
     },
     h4: {
-      ...tailwind.styles.h4,
-      fontSize: [1, 1, 2, 2],
-      mt: 4,
+      variant: 'text.heading',
+      fontSize: 2,
     },
-    a: {
-      ...tailwind.styles.a,
-      color: "#9AD1C4",
+    h5: {
+      variant: 'text.heading',
+      fontSize: 1,
+    },
+    h6: {
+      variant: 'text.heading',
+      fontSize: 0,
+    },
+    pre: {
+      fontFamily: 'monospace',
+      overflowX: 'auto',
+      code: {
+        color: 'inherit',
+      },
+    },
+    code: {
+      fontFamily: 'monospace',
+      fontSize: 'inherit',
+    },
+    table: {
+      width: '100%',
+      borderCollapse: 'separate',
+      borderSpacing: 0,
+    },
+    th: {
+      textAlign: 'left',
+      borderBottomStyle: 'solid',
+    },
+    td: {
+      textAlign: 'left',
+      borderBottomStyle: 'solid',
     },
   },
 }
-
-export default theme
