@@ -1,0 +1,47 @@
+.inputContact {
+    border: 2px solid grey;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 60%;
+    color: "white";
+    font-family: "body";
+}
+
+p.css-1vgu0yp {
+    color: #f0f0f0;
+}
+
+select.inputContact {
+    width: 64% !important;
+}
+
+.inputButton {
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 1.2em;
+    font-family: "body";
+    text-align: center;
+}
+
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: red;
+    z-index: 1;
+  }
+  
+input::-webkit-calendar-picker-indicator {
+    color: black;
+    opacity: 1;
+  }
+
+
+button.inputButton:hover {
+}
+
+.contactTable tr td {
+    font-size: 1.3em;
+}
+
