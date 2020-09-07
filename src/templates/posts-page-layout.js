@@ -39,7 +39,8 @@ export default ({ pageContext, data }) => {
           borderRadius:"5px",
           paddingLeft: "20px",
           paddingRight: "20px",
-          fontFamily:"body",    
+          fontFamily:"body",   
+          color:"white", 
         }}
       >
         <Title style={{fontFamily:"body", marginTop:"20px", color: "white", fontWeight: "600"}}>{post.frontmatter.title}</Title>
