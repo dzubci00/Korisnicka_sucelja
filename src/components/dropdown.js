@@ -39,7 +39,7 @@ return(
      minHeight: "38px",
      flexWrap: "wrap",
      color:"white",
-     fontFamily:"body",
+     fontFamily:"sans-serif",
      backgroundColor:"black"}}>
     <div style={{display: "flex",
         justifyContent: "center",

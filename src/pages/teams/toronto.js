@@ -38,7 +38,7 @@ const Rezultat1 = () => {
 
 
                 </div>
-                <div sx={{color:"white", fontFamily:"body", alignItems:"center"}}>
+                <div sx={{color:"white", fontFamily:"sans-serif", alignItems:"center"}}>
                 <p sx={{marginLeft:"200px",marginBottom:"0",fontSize:"35px", fontWeight: "500",}}>Toronto</p>
                 <p sx={{marginBottom:"35px",marginLeft:"200px",marginTop:"0", fontSize:"55px", fontWeight:"700"}}>Raptors</p>
 
@@ -50,7 +50,7 @@ const Rezultat1 = () => {
                 </div>
                 <p
         style={{
-          fontFamily: "body",
+          fontFamily: "sans-serif",
           fontSize: isLarge ? "20px" : "18px ",
           textAlign: "justify",
           marginBottom: "25px",

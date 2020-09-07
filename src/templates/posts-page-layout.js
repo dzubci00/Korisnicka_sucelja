@@ -19,7 +19,7 @@ export default ({ pageContext, data }) => {
      
 
       <div style={{marginTop: "40px", marginBottom: "40px", width: "60%", 
-      marginLeft: "auto", marginRight: "auto", fontFamily: "body"}}>
+      marginLeft: "auto", marginRight: "auto", fontFamily: "sans-serif"}}>
 
       <BlogNav.Previous>
           {(next || previous) && (
@@ -39,15 +39,15 @@ export default ({ pageContext, data }) => {
           borderRadius:"5px",
           paddingLeft: "20px",
           paddingRight: "20px",
-          fontFamily:"body",   
+          fontFamily:"sans-serif",   
           color:"white", 
         }}
       >
-        <Title style={{fontFamily:"body", marginTop:"20px", color: "white", fontWeight: "600"}}>{post.frontmatter.title}</Title>
-        <div sx={{ fontFamily:"body"}}>
+        <Title style={{fontFamily:"sans-serif", marginTop:"20px", color: "white", fontWeight: "600"}}>{post.frontmatter.title}</Title>
+        <div sx={{ fontFamily:"sans-serif"}}>
           <MDXRenderer >{post.body}</MDXRenderer>
         </div>
-        <span sx={{ fontFamily:"body",fontWeight: "400", fontSize: "1.1em", color: "#f0f0f0", paddingBottom: "20px" }}>
+        <span sx={{ fontFamily:"sans-serif",fontWeight: "400", fontSize: "1.1em", color: "#f0f0f0", paddingBottom: "20px" }}>
           {post.frontmatter.date}
         </span>
       </div>

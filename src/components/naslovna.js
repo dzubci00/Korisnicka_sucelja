@@ -26,7 +26,7 @@ const Naslovna = () => {
           color: "white",
           fontSize: isLarge ? "35px" : "33px ",
           textAlign: "center",
-          fontFamily: "body",
+          fontFamily: "sans-serif",
           marginTop:"10px",
         }}
       >
@@ -34,7 +34,7 @@ const Naslovna = () => {
       </h1>
       <p
         style={{
-          fontFamily: "body",
+          fontFamily: "sans-serif",
           fontSize: isLarge ? "20px" : "18px ",
           textAlign: "justify",
           marginBottom: "25px",

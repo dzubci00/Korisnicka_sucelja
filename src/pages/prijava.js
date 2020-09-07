@@ -10,20 +10,20 @@ const Prijava = () => {
   return (
     <Layout>
       <SEO title="Log in" />
-      <div style={{width:isLarge2? "70%":"100%",marginLeft:"auto",marginRight:"auto", marginBottom: "30px",fontFamily:`body`}}>
+      <div style={{width:isLarge2? "70%":"100%",marginLeft:"auto",marginRight:"auto", marginBottom: "30px",fontFamily:`sans-serif`}}>
         <div style={{
          width:isLarge?"50%":"100%",
          display:isLarge? "inline-block":"block", padding: "20px"
         }}>
           <div style={{borderRadius:"5px", border: "2px solid grey", backgroundColor: "black" }}>
             <p style={{
-              fontFamily: `body`, fontSize: "1.6em", marginLeft: "10px",
+              fontFamily: `sans-serif`, fontSize: "1.6em", marginLeft: "10px",
               fontWeight: "bold", color: "white", textAlign: "center"
             }}>Log in</p>
             <form>
               <table className="contactTable" style={{color:"white",
                 width: "100%", marginRight: "auto",
-                marginLeft: "0", fontFamily:`body`, marginBottom: "50px"
+                marginLeft: "0", fontFamily:`sans-serif`, marginBottom: "50px"
               }} cellPadding="8px">
                 <tr style={{ paddingBottom: "20px" }}>
                   <td style={{ textAlign: "right" }}>
@@ -56,13 +56,13 @@ const Prijava = () => {
         }}>
           <div style={{ borderRadius:"5px",border: "2px solid grey", backgroundColor: "black" }}>
             <p style={{
-              fontFamily: `body`, fontSize: "1.6em", marginLeft: "10px",
+              fontFamily: `sans-serif`, fontSize: "1.6em", marginLeft: "10px",
               fontWeight: "bold", color: "white", textAlign: "center"
             }}>Sign up</p>
             <form>
               <table className="contactTable" style={{color:"white",
                 width: "100%", marginRight: "auto",
-                marginLeft: "0", fontFamily: `body`, marginBottom: "50px"
+                marginLeft: "0", fontFamily: `sans-serif`, marginBottom: "50px"
               }} cellPadding="8px">
                 <tr style={{ paddingBottom: "20px" }}>
                   <td style={{ textAlign: "right" }}>

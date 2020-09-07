@@ -12,7 +12,7 @@ export default ({ posts }) => {
         style={{
           textDecorationLine: "none",
           marginBottom: "2vh",
-          fontFamily: "body",
+          fontFamily: "sans-serif",
         }}>
         <section key={id} sx={{
           mb: 1,

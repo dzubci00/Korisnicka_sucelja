@@ -12,7 +12,7 @@ const NavigationLink = ({ children, ...prop }) => {
       display: "inline-block",
       px: 5,
       ml: 4,
-      fontFamily:"body",
+      fontFamily:"sans-serif",
       color: "white",
       textDecoration: "none",
       whiteSpace: "nowrap",

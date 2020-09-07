@@ -43,7 +43,7 @@ const BlogLink = ({ ...prop }) => (
       textDecoration: "none",
       textTransform: "uppercase",
       fontWeight: "medium",
-      lineHeight: "body",
+      lineHeight: "sans-serif",
       letterSpacing: "tight",
       border:"2px solid grey",
       borderRadius:"5px"

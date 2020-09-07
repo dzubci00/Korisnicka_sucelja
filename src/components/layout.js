@@ -44,9 +44,9 @@ return(
             MozOsxFontSmoothing: `grayscale`,
             color: `text`,
             backgroundColor: `#f0f0f0`,
-            fontFamily: `body`,
-            lineHeight: `body`,
-            fontWeight: `body`,
+            fontFamily: `sans-serif`,
+            lineHeight: `sans-serif`,
+            fontWeight: `sans-serif`,
           },
         })}
       />

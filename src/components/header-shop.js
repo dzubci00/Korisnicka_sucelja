@@ -16,7 +16,7 @@ const HeaderTop = () => {
     
       }}
     >
-     <h1 sx={{textAlign:"center",color:"white", fontFamily:"body"}}>Welcome to NBA store</h1>
+     <h1 sx={{textAlign:"center",color:"white", fontFamily:"sans-serif"}}>Welcome to NBA store</h1>
     </footer>
   )
 }

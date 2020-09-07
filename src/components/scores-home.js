@@ -22,7 +22,7 @@ const ScoresHome = () => {
     >
       <p
         style={{
-          fontFamily: "body",
+          fontFamily: "sans-serif",
           fontSize: isLarge ? "20px" : "18px ",
           textAlign: "justify",
           marginBottom: "25px",

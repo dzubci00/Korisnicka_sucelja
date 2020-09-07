@@ -68,7 +68,7 @@ const BlogList = ({
           style={{
             position: "relative",
             marginBottom: "10px",
-            fontFamily: "body",
+            fontFamily: "sans-serif",
             resize:"block",
             
           }}
@@ -80,7 +80,7 @@ const BlogList = ({
             onChange={handleInputChange}
             className="inputContact"
             sx={{
-              fontFamily:"body",
+              fontFamily:"sans-serif",
               marginTop: "25px",
               marginBottom: "15px",
               py: 2,
@@ -113,7 +113,7 @@ const BlogList = ({
             gridTemplateRows: "auto auto auto",
             gridColumnGap: "10px",
             justifyItems: "center",
-            fontFamily:"body",
+            fontFamily:"sans-serif",
           }}
         >
           <BlogExcerpt posts={posts1} />
