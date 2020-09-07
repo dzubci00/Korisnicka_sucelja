@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import FooterIcon from "./footerIcon"
+import FooterIcon from "./footericon"
 import useMediaQuery from "@material-ui/core/useMediaQuery"
 
 
