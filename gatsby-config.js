@@ -42,6 +42,12 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-netlify-identity",
+      options: {
+        url: "https://app.netlify.com/sites/pensive-saha-7e8dfb",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
